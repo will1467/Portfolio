@@ -24,6 +24,13 @@ hr.light {
   border-color: #fff;
 }
 
+.project-images img{
+  display: inline-block;
+  height: 350px;
+  width: 600px;
+  margin: 10px 10px 30px 10px;
+}
+
 a {
   color: #F05F40;
   -webkit-transition: all 0.2s;
@@ -102,6 +109,10 @@ img::-moz-selection {
   -moz-transition: all 0.2s;
   transition: all 0.2s;
   height: 60px;
+}
+
+.projectsubheader {
+  font-size: 22px;
 }
 
 #mainNav .navbar-brand {
