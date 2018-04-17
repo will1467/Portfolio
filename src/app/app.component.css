@@ -46,7 +46,7 @@ h6 {
 }
 
 .bg-dark {
-  background-color: #212529 !important;
+  background-color: #364c61 !important;
 }
 
 .text-faded {
@@ -54,7 +54,7 @@ h6 {
 }
 
 section {
-  padding: 8rem 0;
+  padding: 5rem 0;
 }
 
 .section-heading {
@@ -81,6 +81,14 @@ img::selection {
 img::-moz-selection {
   color: #fff;
   background: transparent;
+}
+
+.profile {
+    padding-bottom: 20px;
+}
+
+.logo {
+    margin: 0px 20px 0px 0px;
 }
 
 #mainNav {
@@ -186,7 +194,7 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 header.masthead p {
@@ -201,7 +209,7 @@ header.masthead p {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
+    height: 80vh;
     min-height: 650px;
     padding-top: 0;
     padding-bottom: 0;
@@ -312,4 +320,19 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+.docframe {
+    height: 1000px;
+    width: 80%;
+}
+
+.angular {
+    margin-top: 20px;
+}
+
+.django {
+    height: 100px;
+    margin-top: 20px;
+    width: 250px;
 }
