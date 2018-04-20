@@ -1,42 +1,35 @@
-<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-    <div class="container">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#resume">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 <header class="masthead text-center text-white d-flex">
   <div class="container my-auto">
     <div class="row">
       <div class="col-lg-10 mx-auto">
-        <h1 class="">
+        <h1 class="main-header">
           <strong>William Wrigley</strong>
         </h1>
         <p class="mb-3">Delivering responsive, dynamic and visually appealing web apps <br> using modern HTML5/CSS/JS standards</p>
         <hr>
         <img class="img-fluid profile" src="../assets/profile.png" alt="">
       </div>
-      <div class="col-lg-8 mx-auto" style="margin-bottom:50px">
-        <a href = "https://www.linkedin.com/in/william-wrigley-25439b140/"><img class="img-fluid logo" src="../assets/linkedin.png" alt=""></a>
-        <a href = "https://bitbucket.org/WWrigley/"><img class="img-fluid logo" src="../assets/bitbucket.png" alt=""></a>
-        <a href = "https://github.com/will1467"><img width = "50px" class="img-fluid logo" src="../assets/github.png" alt=""></a>
+      <div class="col-lg-8 mx-auto" style="margin-bottom:50px;">
+        <div style= "padding-left: 20px">
+          <a href = "https://www.linkedin.com/in/william-wrigley-25439b140/"><img class="img-fluid logo" src="../assets/linkedin.png" alt=""></a>
+          <a href = "https://bitbucket.org/WWrigley/"><img class="img-fluid logo" src="../assets/bitbucket.png" alt=""></a>
+          <a href = "https://github.com/will1467"><img width = "50px" class="img-fluid logo" src="../assets/github.png" alt=""></a>
+        </div>
+        <div class= "menu">
+          <ul class= "ml-auto" style="list-style: none">
+            <li class="nav-item" style="float: left">
+              <a class="nav-link js-scroll-trigger"style="display: block"  href="#projects">Projects</a>
+            </li>
+            <li class="nav-item" style="float: left">
+              <a class="nav-link js-scroll-trigger" style="display: block" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item" style="float: left">
+              <a class="nav-link js-scroll-trigger" style="display: block" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
+     
     </div>
   </div>
 </header>
@@ -63,7 +56,7 @@
         <div class="service-box mt-5 mx-auto">
             <a href = "https://openui5.hana.ondemand.com/"><img class="img-fluid" src="../assets/openui5.png" alt=""></a>
           <!-- <h3 class="mb-3">Ready to Ship</h3> -->
-          <p class="text-muted mb-0">Development kit for building apps in <a href = "https://www.sapfioritrial.com/">SAP Fiori</a></p>
+          <p class="text-muted mb-0" style>Development kit for building apps in <a style="color:orange" href = "https://www.sapfioritrial.com/">SAP Fiori</a></p>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 text-center">
@@ -94,7 +87,7 @@
     <div class="row no-gutters popup-gallery">
       <div class="col-lg-4 col-sm-6">
         <a class="portfolio-box" routerLink="/project/Chirper">
-          <img class="" src="../assets/chirper.png" height = "250px" width="600px" alt="">
+          <img class="" src="../assets/chirper.png" height = "280px" width= "100%" alt="">
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
               <div class="project-name">
@@ -106,7 +99,7 @@
       </div>
       <div class="col-lg-4 col-sm-6">
         <a class="portfolio-box" routerLink="/project/EconIndicators">
-          <img class="" src="../assets/econindicators.png" height = "250px" width="600px" alt="">
+          <img class="" src="../assets/econindicators.png" height = "280px" width= "100%" alt="">
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
               <div class="project-name">
@@ -118,7 +111,7 @@
       </div>
       <div class="col-lg-4 col-sm-6">
         <a class="portfolio-box" routerLink="/project/Angular">
-          <img class="" src="../assets/econindicators.png" height = "250px" width="600px" alt="">
+          <img class="" src="../assets/econindicators.png" height = "280px" width= "100%">
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
               <div class="project-name">
@@ -147,20 +140,21 @@
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
         <h2 class="section-heading">Contact Me</h2>
+        <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
         <hr class="my-4">
-        <!-- <p class="mb-5">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p> -->
       </div>
     </div>
     <div class="row">
-      <div class="col-lg-4 ml-auto text-center">
-        <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-        <p>022 091 8088</p>
-      </div>
-      <div class="col-lg-4 mr-auto text-center">
-        <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-        <p>
-          <a href="mailto:williamawrigley@gmail.com">williamawrigley@gmail.com</a>
-        </p>
+      <div class="col-lg-4 mr-auto text-center" style="margin: auto">
+          <form (ngSubmit)="onSubmit()" #emailForm= "ngForm" action="" id="usrform">
+            <label>Name:</label> 
+            <input class ="form-control" name= "From" size="35" [(ngModel)]="emailModel.From" required #spy #From="ngModel">
+            <div [hidden]="From.valid || From.pristine" class="alert alert-danger"> Name is required </div>
+            <br>
+            <label>Message:</label> 
+            <textarea name="comment" [(ngModel)]="emailModel.Message" name="Message" class="form-control" rows="5" cols="42" required #spy></textarea>
+            <button type="submit" [disabled]="!emailForm.form.valid" class="btn btn-primary btn-xl js-scroll-trigger">Send</button>
+          </form>
       </div>
     </div>
   </div>
