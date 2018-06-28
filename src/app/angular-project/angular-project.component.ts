@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, NavigationEnd } from "@angular/router";
 
 @Component({
   selector: 'app-angular-project',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AngularProjectComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
-  ngOnInit() {
-  }
+ngOnInit(){
+
+}
+
+ngAfterViewChecked() {
+    window.scrollTo(0, 0);
+}
 
 }

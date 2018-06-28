@@ -36,7 +36,7 @@ hr.light {
 }
 
 a {
-  color: white;
+  color: #0a0a0a;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;

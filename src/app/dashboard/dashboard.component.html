@@ -15,19 +15,6 @@
           <a href = "https://bitbucket.org/WWrigley/"><img class="img-fluid logo" src="../assets/bitbucket.png" alt=""></a>
           <a href = "https://github.com/will1467"><img width = "50px" class="img-fluid logo" src="../assets/github.png" alt=""></a>
         </div>
-        <div class= "menu">
-          <ul class= "ml-auto" style="list-style: none">
-            <li class="nav-item" style="float: left">
-              <a class="nav-link js-scroll-trigger"style="display: block"  href="#projects">Projects</a>
-            </li>
-            <li class="nav-item" style="float: left">
-              <a class="nav-link js-scroll-trigger" style="display: block" href="#resume">Resume</a>
-            </li>
-            <li class="nav-item" style="float: left">
-              <a class="nav-link js-scroll-trigger" style="display: block" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
       </div>
      
     </div>
@@ -48,29 +35,22 @@
       <div class="col-lg-3 col-md-6 text-center">
         <div class="service-box mt-5 mx-auto">
             <a href = "https://reactjs.org/"><img class="img-fluid react" src="../assets/react.png" alt=""></a>
-          <!-- <h3 class="mb-3">ReactJS</h3> -->
-          <!-- <p class="text-muted mb-0">Our templates are updated regularly so they don't break.</p> -->
         </div>
       </div>
       <div class="col-lg-3 col-md-6 text-center">
         <div class="service-box mt-5 mx-auto">
             <a href = "https://openui5.hana.ondemand.com/"><img class="img-fluid" src="../assets/openui5.png" alt=""></a>
-          <!-- <h3 class="mb-3">Ready to Ship</h3> -->
           <p class="text-muted mb-0" style>Development kit for building apps in <a style="color:orange" href = "https://www.sapfioritrial.com/">SAP Fiori</a></p>
         </div>
       </div>
       <div class="col-lg-3 col-md-6 text-center">
         <div class="service-box mt-5 mx-auto">
             <a href = "https://angular.io/"><img class="img-fluid angular" src="../assets/angular.png" alt=""></a>
-          <!-- <h3 class="mb-3">AngularJS</h3> -->
-          <!-- <p class="text-muted mb-0">We update dependencies to keep things fresh.</p> -->
         </div>
       </div>
       <div class="col-lg-3 col-md-6 text-center">
         <div class="service-box mt-5 mx-auto">
             <a href = "https://www.djangoproject.com/"><img class="img-fluid django" src="../assets/django.png" alt=""></a>
-          <!-- <h3 class="mb-3">Django </h3> -->
-          <!-- <p class="text-muted mb-0">You have to make your websites with love these days!</p> -->
         </div>
       </div>
     </div>
@@ -111,11 +91,11 @@
       </div>
       <div class="col-lg-4 col-sm-6">
         <a class="portfolio-box" routerLink="/project/Angular">
-          <img class="" src="../assets/econindicators.png" height = "280px" width= "100%">
+          <img class="" src="../assets/app4apps.png" height = "280px" width= "100%">
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
               <div class="project-name">
-                Angular Project (TBD)
+                App4Apps
               </div>
             </div>
           </div>
@@ -146,15 +126,8 @@
     </div>
     <div class="row">
       <div class="col-lg-4 mr-auto text-center" style="margin: auto">
-          <form (ngSubmit)="onSubmit()" #emailForm= "ngForm" action="" id="usrform">
-            <label>Name:</label> 
-            <input class ="form-control" name= "From" size="35" [(ngModel)]="emailModel.From" required #spy #From="ngModel">
-            <div [hidden]="From.valid || From.pristine" class="alert alert-danger"> Name is required </div>
-            <br>
-            <label>Message:</label> 
-            <textarea name="comment" [(ngModel)]="emailModel.Message" name="Message" class="form-control" rows="5" cols="42" required #spy></textarea>
-            <button type="submit" [disabled]="!emailForm.form.valid" class="btn btn-primary btn-xl js-scroll-trigger">Send</button>
-          </form>
+        <h2 class="mb-4"><a href="mailto:williamawrigley@gmail.com">williamawrigley@gmail.com</a></h2>
+        <h2 class="mb-4">0220918088</h2>
       </div>
     </div>
   </div>
