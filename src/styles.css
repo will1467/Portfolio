@@ -31,6 +31,24 @@ hr.light {
   margin: 10px 10px 30px 10px;
 }
 
+@media screen and (max-width: 800px){
+  .project-images img {
+    width: 500px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .project-images img {
+    height: 200px;
+    width: 300px;
+  }
+
+  section {
+    padding: 1rem 0 !important;
+  }
+}
+
 .main-header {
   margin-top: 50px;
 }
@@ -68,7 +86,7 @@ h6 {
 }
 
 section {
-  padding: 5rem 0;
+  padding: 3rem 0;
 }
 
 .section-heading {
@@ -374,6 +392,22 @@ border-radius: 0;
 .docframe {
     height: 1000px;
     width: 80%;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 450px){
+  .docframe {
+    width: 100%;
+  }
+
+  .container {
+    max-width: 900px;
+  }
+}
+
+@media screen and (max-width:450px){
+  .docframe {
+    width: 100%;
+  }
 }
 
 .angular {

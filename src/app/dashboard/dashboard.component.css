@@ -1,0 +1,43 @@
+.project-image {
+    height : 280px;
+    width : 100%;
+}
+
+@media screen and (max-width:1200px) and (min-width: 450px){
+    .project-image {
+        height: 220px;
+    }
+
+    header.masthead {
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
+    .main-header {
+        margin-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    .logos {
+        margin-bottom: 0;
+    }
+
+    header.masthead {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
+    .project-image {
+        height: 200px;
+    }
+
+    .contact {
+        font-size: 1rem;
+    }
+}
+
+.logos {
+    margin-bottom:50px;
+}

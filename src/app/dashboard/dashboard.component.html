@@ -9,7 +9,7 @@
         <hr>
         <img class="img-fluid profile" src="../assets/profile.png" alt="">
       </div>
-      <div class="col-lg-8 mx-auto" style="margin-bottom:50px;">
+      <div class="col-lg-8 mx-auto logos">
         <div style= "padding-left: 20px">
           <a href = "https://www.linkedin.com/in/william-wrigley-25439b140/"><img class="img-fluid logo" src="../assets/linkedin.png" alt=""></a>
           <a href = "https://bitbucket.org/WWrigley/"><img class="img-fluid logo" src="../assets/bitbucket.png" alt=""></a>
@@ -60,14 +60,14 @@
 <section class="p-0" id="portfolio">
   <div class="col-lg-12 text-center">
       <a name="projects"></a>
-      <h2 class="section-heading">My Projects</h2>
+      <h2 class="section-heading">My Projects (Click to View)</h2>
       <hr class="my-4">
   </div>
   <div class="container-fluid p-0">
     <div class="row no-gutters popup-gallery">
       <div class="col-lg-4 col-sm-6">
         <a class="portfolio-box" routerLink="/project/Chirper">
-          <img class="" src="../assets/chirper.png" height = "280px" width= "100%" alt="">
+          <img class="" src="../assets/chirper.png"  class="project-image" alt="">
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
               <div class="project-name">
@@ -79,7 +79,7 @@
       </div>
       <div class="col-lg-4 col-sm-6">
         <a class="portfolio-box" routerLink="/project/EconIndicators">
-          <img class="" src="../assets/econindicators.png" height = "280px" width= "100%" alt="">
+          <img class="" src="../assets/econindicators.png" class="project-image" alt="">
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
               <div class="project-name">
@@ -91,7 +91,7 @@
       </div>
       <div class="col-lg-4 col-sm-6">
         <a class="portfolio-box" routerLink="/project/Angular">
-          <img class="" src="../assets/app4apps.png" height = "280px" width= "100%">
+          <img class="" src="../assets/app4apps.png" class="project-image">
           <div class="portfolio-box-caption">
             <div class="portfolio-box-caption-content">
               <div class="project-name">
@@ -110,7 +110,8 @@
       <a name="resume"></a>
     <h2 class="mb-4">Resume</h2>
     <hr class="my-4">
-    <iframe class="docframe" src="https://docs.google.com/document/d/e/2PACX-1vTaGk3my_YuqlYCViLRO6IRUN-vU-f-bymt76yNzPC3qNf9rdVPSrVq6seLFQqnifOQJaZ_Oyo00rjH/pub?embedded=true"></iframe>
+    <h2 class="mb-4 contact"><a *ngIf = "!isNotMobile" href ="https://docs.google.com/document/d/1lgRrwjcXsECwFcE8s44VxWHijP1Nrz2ZiW7hmbsqBAE/edit?usp=sharing">View CV</a></h2>
+    <iframe *ngIf = "isNotMobile" class="docframe" width="100%" src="https://docs.google.com/document/d/e/2PACX-1vTaGk3my_YuqlYCViLRO6IRUN-vU-f-bymt76yNzPC3qNf9rdVPSrVq6seLFQqnifOQJaZ_Oyo00rjH/pub?embedded=true"></iframe>
   </div>
 </section>
 
@@ -126,8 +127,8 @@
     </div>
     <div class="row">
       <div class="col-lg-4 mr-auto text-center" style="margin: auto">
-        <h2 class="mb-4"><a href="mailto:williamawrigley@gmail.com">williamawrigley@gmail.com</a></h2>
-        <h2 class="mb-4">0220918088</h2>
+        <h2 class="mb-4 contact"><a href="mailto:williamawrigley@gmail.com">williamawrigley@gmail.com</a></h2>
+        <h2 class="mb-4 contact">0220918088</h2>
       </div>
     </div>
   </div>
